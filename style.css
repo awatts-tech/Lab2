@@ -14,11 +14,15 @@ nav {
     color: #69696a;
 }
 
-h1, h6{
-    color: e #000;
+.two {
+    color: #69696a;
 }
 
-blockquote{
+h1, p {
+    color: #000;
+}
+
+blockquote, {
    border-left: 10px solid #69696a;
 }
 
@@ -39,5 +43,3 @@ ul{
   border-radius: 10px;
   padding: 5px 5px;
 }
-
-
