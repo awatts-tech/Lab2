@@ -1,45 +1,179 @@
 body {
-    background-color: #f9fafc;
-  }
-  
-body {
-    font-family: 'Open Sans', sans-serif;
+  background-color: #f9fafc;
+  font-family: 'Open Sans', sans-serif;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 nav {
-    color: #69696a;
+  color: #69696a;
 }
 
 .two {
-    color: #69696a;
+  color: #69696a;
 }
 
 h1, p {
-    color: #000;
+  color: #000;
 }
 
 blockquote {
-   border-left: 10px solid #69696a;
+  border-left: 10px solid #69696a;
+  padding: 1rem;
+ 
 }
 
 ul{
-  list-style-type:none;
-  padding-left: 0;
+list-style-type:none;
+padding-left: 0;
 }
 
-.block {
-  display: block;
-  width: 100%;
-  border: none;
-  text-align: center;
-  background-color:     #000;
-  color: #FFF;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
-  padding: 5px 5px;
+.button1{
+display: block;
+width: 100%;
+border: none;
+text-align: center;
+background-color:     #000;
+color: #FFF;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+padding: 5px 5px;
 }
+
+.button2{
+display: block;
+width: 100%;
+border: none;
+text-align: center;
+background-color:     #000;
+color: #FFF;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+padding: 5px 5px;
+}
+
+
+
+
+@media screen and (min-width: 768px) { 
+  
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .one{
+   display: flex;
+   justify-content: flex-start;
+   margin-left: 20px;
+   position: relative;
+   top: 72px;
+   left: 9px;
+  }
+  .two {
+    width: 50%;
+  }
+  
+  
+  h1, p {
+    margin-left: 20px;
+  }
+  
+ 
+  ul{
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  }
+  
+  .button1{
+  display: flex;
+  justify-content: flex-end;
+  float: right;
+  width: 65px;
+  height: 35px;
+  position: relative;
+  top: 29px;
+  left: -4px;
+  }
+  
+  .button2{
+  position: relative;
+  width: 100px;
+  top: 350px;
+  left: 460px;
+  }
+  
+  li{
+    padding: 20px;
+  }
+  
+  .dot1 {
+    height: 200px;
+    width: 200px;
+    background-color: rgba(247, 136, 167, 0.6);
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    top: 21px ;
+    left: 157px;
+  }
+  
+  .dot2 {
+    height: 150px;
+    width: 150px;
+    background-color: rgba(247, 193, 162, 0.7);
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    top: 148px;
+    left: 72px;
+   }
+   
+  .dot3{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(207, 130, 213, 0.6);
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    top: 96px ;
+    left: -10px;
+  }
+  
+  .circle{
+    position: relative;
+    display: flex;
+    float: right;
+  }
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
